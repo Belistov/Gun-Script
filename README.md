@@ -3,7 +3,9 @@ A script I am designing to be versatile and usable with all and any guns without
 <br>
 For the code to work propperly please follow these steps.
 1. Download/Copy the **gun** code into your unity project
+    - [Get tge code](https://github.com/Belistov/Gun-Script/blob/main/ShooterCode.cs)
 2. Download/Copy the **health** code into your unity project
+    - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)
 3. Put the **gun code** on your **gun**, and the **health code** on your enemy
 4. change some variables in the code itself. like show here
 
