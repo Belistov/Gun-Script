@@ -4,6 +4,7 @@
 using UnityEngine;
 using System.Collections;
 
+// Change the name <ShooterCode> to your gun scripts file name
 public class ShooterCode : MonoBehaviour
 {
     [Header("< Main Cam / Player >")]
