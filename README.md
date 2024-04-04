@@ -8,8 +8,15 @@ For the code to work propperly please follow these steps.
 2. Download/Copy the **health** code into your unity project
     - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)
 3. Put the **gun code** on your **gun**, and the **health code** on your enemy
-5. change some variables in the code itself. like show here
-
+4. change some variables in the code itself. for example
+   ```cs
+   // My code has mouseLook
+    [SerializeField] private mouseLook cam;
+   // Your code has something else,
+   // this is refering to the code that is attached to the camera
+   // Change it to have the same name as that code
+   [SerializeField] private <Camer Code> cam;
+   ```
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
 Added
