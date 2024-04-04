@@ -18,6 +18,16 @@ For the code to work propperly please follow these steps.
    [SerializeField] private <Camer Code> cam;
    // and remember to remove the '<>'
    ```
+   ```cs
+   // Same goes for this part of the code
+   // I have PlayerMovement but you have probably something else
+   [SerializeField] private PlayerMovement _speed;
+   // this is referencing the code that is attached to the player and allows him to move
+   // Change it to your player movement code file name
+   [SerializeField] private <Code name of player movement> _speed;
+   // and remember to remove the '<>'
+   ```
+   
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
 Added
