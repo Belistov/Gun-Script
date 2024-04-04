@@ -1,5 +1,11 @@
 # Gun-Script
 A script I am designing to be versatile and usable with all and any guns without external scripts, except for player movements
+<br>
+For the code to work propperly please follow these steps.
+1. Download/Copy the **gun** code into your unity project
+2. Download/Copy the **health** code into your unity project
+3. Put the **gun code** on your **gun**, and the **health code** on your enemy
+4. change some variables in the code itself. like show here
 
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
