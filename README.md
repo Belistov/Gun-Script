@@ -10,6 +10,9 @@ For the code to work propperly please follow these steps.
 3. Put the **gun code** on your **gun**, and the **health code** on your enemy
 4. change some variables in the code itself. for example
    ```cs
+   // Asuimng you havent deleted or changed anything in the code this can be found in
+   // Line : 12
+   
    // My code has mouseLook
    [SerializeField] private mouseLook cam;
    // Your code has something else,
@@ -19,6 +22,9 @@ For the code to work propperly please follow these steps.
    // and remember to remove the '<>'
    ```
    ```cs
+   // Asuimng you havent deleted or changed anything in the code this can be found in
+   // Line : 16 and 20
+   
    // Same goes for this part of the code
    // I have PlayerMovement but you have probably something else
    [SerializeField] private PlayerMovement _speed;
