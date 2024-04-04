@@ -11,7 +11,7 @@ For the code to work propperly please follow these steps.
 4. change some variables in the code itself. for example
    ```cs
    // My code has mouseLook
-    [SerializeField] private mouseLook cam;
+   [SerializeField] private mouseLook cam;
    // Your code has something else,
    // this is refering to the code that is attached to the camera
    // Change it to have the same name as that code
