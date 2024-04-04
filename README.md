@@ -7,7 +7,8 @@ For the code to work propperly please follow these steps.
 2. Download/Copy the **health** code into your unity project
     - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)
 3. Put the **gun code** on your **gun**, and the **health code** on your enemy
-4. change some variables in the code itself. like show here
+![Gun COde](https://media.discordapp.net/attachments/1014937571253555310/1225393539538485288/image.png?ex=6620f7aa&is=660e82aa&hm=f6e47ed26c11e58b052fc55c1c8427305dbbe8b2488e8fbc447861509ebda623&=&format=webp&quality=lossless&width=423&height=681)
+5. change some variables in the code itself. like show here
 
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
