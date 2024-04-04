@@ -2,7 +2,7 @@
 If you want to change the code minimally I reccomedn you use my movement and mouse codes <br>
 [Here](https://github.com/Belistov/Gun-Script/tree/main/Extra_Code)<br>
 
-![Uploading idk.png…]()
+[Uploading idk.png…](idk.png)
 
 A script I am designing to be versatile and usable with all and any guns without external scripts, except for player movements
 <br>
