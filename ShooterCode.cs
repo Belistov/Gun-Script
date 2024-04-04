@@ -1,3 +1,6 @@
+// Code Written by Belistov
+// Universal Gun Script using the hit on click methood
+
 using UnityEngine;
 using System.Collections;
 
