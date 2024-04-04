@@ -6,7 +6,8 @@ For the code to work propperly please follow these steps.
     - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/ShooterCode.cs)<br>
 ![Gun COde](https://media.discordapp.net/attachments/1014937571253555310/1225393539538485288/image.png?ex=6620f7aa&is=660e82aa&hm=f6e47ed26c11e58b052fc55c1c8427305dbbe8b2488e8fbc447861509ebda623&=&format=webp&quality=lossless&width=423&height=681)
 2. Download/Copy the **health** code into your unity project
-    - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)
+    - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)<br>
+    ![Health Code](https://media.discordapp.net/attachments/1014937571253555310/1225403113419313162/image.png?ex=66210095&is=660e8b95&hm=be243527175d80e64974161b8d77a7000457a5ab4c6623c59bc8975527573767&=&format=webp&quality=lossless)
 3. Put the **gun code** on your **gun**, and the **health code** on your enemy
 4. change some variables in the code itself. for example
    ```cs
