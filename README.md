@@ -3,7 +3,7 @@ A script I am designing to be versatile and usable with all and any guns without
 <br>
 For the code to work propperly please follow these steps.
 1. Download/Copy the **gun** code into your unity project
-    - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/ShooterCode.cs)
+    - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/ShooterCode.cs)<br>
 ![Gun COde](https://media.discordapp.net/attachments/1014937571253555310/1225393539538485288/image.png?ex=6620f7aa&is=660e82aa&hm=f6e47ed26c11e58b052fc55c1c8427305dbbe8b2488e8fbc447861509ebda623&=&format=webp&quality=lossless&width=423&height=681)
 2. Download/Copy the **health** code into your unity project
     - [Get the code](https://github.com/Belistov/Gun-Script/blob/main/health.cs)
