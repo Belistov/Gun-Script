@@ -8,12 +8,15 @@ using System.Collections;
 public class ShooterCode : MonoBehaviour
 {
     [Header("< Main Cam / Player >")]
+    [Tooltip("Asking for the Camera Code")]
     [SerializeField] private mouseLook cam;
     private float originalSensitivity;
-
+    
+    [Tooltip("Asking for the Player Movement Code")]
     [SerializeField] private PlayerMovement _speed;
     private float originalSpeed;
 
+    [Tooltip("Asking for the Player Movement Code")]
     [SerializeField] private PlayerMovement _SprintSpeed;
     private float originalSprintSpeed;
 
