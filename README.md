@@ -16,6 +16,7 @@ For the code to work propperly please follow these steps.
    // this is refering to the code that is attached to the camera
    // Change it to have the same name as that code
    [SerializeField] private <Camer Code> cam;
+   // and remember to remove the '<>'
    ```
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
