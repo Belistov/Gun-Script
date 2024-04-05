@@ -1,22 +1,18 @@
 // Code Written by Belistov
-// Universal Gun Script using the hit on click methood
+// Designed to be a universal gun script
 
 using UnityEngine;
 using System.Collections;
 
-// Change the name <ShooterCode> to your gun scripts file name
 public class ShooterCode : MonoBehaviour
 {
     [Header("< Main Cam / Player >")]
-    [Tooltip("Asking for the Camera Code")]
     [SerializeField] private mouseLook cam;
     private float originalSensitivity;
-    
-    [Tooltip("Asking for the Player Movement Code")]
+
     [SerializeField] private PlayerMovement _speed;
     private float originalSpeed;
 
-    [Tooltip("Asking for the Player Movement Code")]
     [SerializeField] private PlayerMovement _SprintSpeed;
     private float originalSprintSpeed;
 
