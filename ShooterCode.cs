@@ -38,7 +38,7 @@ public class ShooterCode : MonoBehaviour
     public GameObject muzzle;
     public Camera fpsCam;
     public AudioSource shoot_SFX;
-    public LineRenderer bulletTrail; // Use LineRenderer for the bullet trail
+    public LineRenderer bulletTrail;
     private Transform gunTransform;
     private Quaternion originalRotation;
     private float nextTimeToFire = 0f;
