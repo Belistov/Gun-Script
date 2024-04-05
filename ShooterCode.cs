@@ -37,24 +37,19 @@ public class ShooterCode : MonoBehaviour
     [Header("< Gun Components >")]
     public GameObject muzzle;
     public Camera fpsCam;
-    public AudioSource shoot_SFX;
-    public LineRenderer bulletTrail;
-    private Transform gunTransform;
-    private Quaternion originalRotation;
+    // public AudioSource shoot_SFX;
     private float nextTimeToFire = 0f;
 
     void Start()
     {
-        shoot_SFX = GetComponent<AudioSource>();
-        shoot_SFX.Pause();
+        // shoot_SFX = GetComponent<AudioSource>();
+        // shoot_SFX.Pause();
 
         originalSensitivity = cam.mouseSensitivity;
         originalSpeed = _speed.speed;
         originalSprintSpeed = _SprintSpeed.sprintSpeed;
         currentAmmo = maxAmmo;
 
-        gunTransform = transform;
-        originalRotation = gunTransform.localRotation;
     }
 
     void OnEnable()
@@ -90,7 +85,7 @@ public class ShooterCode : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1f / fireRate;
                 Shoot();
-                shoot_SFX.Play(0);
+                //shoot_SFX.Play(0);
             }
         }
         if (is_auto == false)
@@ -99,7 +94,7 @@ public class ShooterCode : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1f / fireRate;
                 Shoot();
-                shoot_SFX.Play(0);
+                //shoot_SFX.Play(0);
             }
         }
     }
@@ -110,19 +105,16 @@ public class ShooterCode : MonoBehaviour
         Debug.Log("Reloading...");
 
         float elapsedTime = 0f;
-        Quaternion startRotation = gunTransform.localRotation;
-        Quaternion targetRotation = originalRotation * Quaternion.Euler(-30f, 0f, 0f);
+
 
         while (elapsedTime < reloadTime)
         {
-            gunTransform.localRotation = Quaternion.Slerp(startRotation, targetRotation, elapsedTime / reloadTime);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
         noAim();
 
-        gunTransform.localRotation = originalRotation;
 
         currentAmmo = maxAmmo;
         isReloading = false;
@@ -142,21 +134,12 @@ public class ShooterCode : MonoBehaviour
                 target.TakeDamage(damage);
             }
 
-            // Set the positions for the LineRenderer (bullet trail)
-            bulletTrail.SetPosition(0, muzzle.transform.position);
-            bulletTrail.SetPosition(1, hit.point);
 
             // Optionally add force to a rigidbody
             if (hit.rigidbody != null)
             {
                 hit.rigidbody.AddForce(-hit.normal * impactForce);
             }
-        }
-        else
-        {
-            // If the ray doesn't hit anything, set the LineRenderer to a default length
-            bulletTrail.SetPosition(0, muzzle.transform.position);
-            bulletTrail.SetPosition(1, muzzle.transform.position + fpsCam.transform.forward * range);
         }
     }
 
