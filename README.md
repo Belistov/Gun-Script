@@ -48,7 +48,7 @@ For the code to work propperly please follow these steps.
    |- |- |- Weapon 2 [Attach <ShooterCode.cs> ]
    |- |- |- |- Muzzle (Create Empty) (Put at the tip of the gun)
    |- |- |- etc...
-   |- Ground Check (Create Empty) (Put at the bottom the player)
+   |- Ground Check (Create Empty) (Put at the bottom the player) (Put a <speare collider> and isTrigger = On)
    ```
    ![Image](https://media.discordapp.net/attachments/968661712943337552/1225598275655307274/image.png?ex=6621b657&is=660f4157&hm=5ffb3b337a4df237047110700a7b4ba9816a659dda3d6e53fe4b1c1f521b1a90&=&format=webp&quality=lossless)
    <br>
