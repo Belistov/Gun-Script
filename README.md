@@ -49,6 +49,8 @@ For the code to work propperly please follow these steps.
    |- Ground Check (Create Empty)
    ```
    ![Image](https://media.discordapp.net/attachments/968661712943337552/1225598275655307274/image.png?ex=6621b657&is=660f4157&hm=5ffb3b337a4df237047110700a7b4ba9816a659dda3d6e53fe4b1c1f521b1a90&=&format=webp&quality=lossless)
+   <br>
+6. Don't forget to add colliders, rigidbody and the rest ;)
    
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
