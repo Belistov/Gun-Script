@@ -1,3 +1,6 @@
+// Written by Belistov
+// Designed to be a universal gun script
+
 using UnityEngine;
 using System.Collections;
 
