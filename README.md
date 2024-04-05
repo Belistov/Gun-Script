@@ -37,6 +37,7 @@ For the code to work propperly please follow these steps.
    [SerializeField] private <Code name of player movement> _speed;
    // and remember to remove the '<>'
    ```
+5. To set this up use this template foe the ``Hierarchy``
    
 ## Log 1. June 2023
 I started working on this code as a project for my friend who just got into unity C# developing, the code has so far worked really well and I pulled an allnighter working on it... <br>
